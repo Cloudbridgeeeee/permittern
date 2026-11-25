@@ -1,0 +1,25 @@
+{
+ "palettes": [
+  "white-mint-tiles"
+ ],
+ "types": [
+  "manrope"
+ ],
+ "dealt": [
+  "manrope",
+  "reddit",
+  "epilogue"
+ ],
+ "moments": [
+  {
+   "id": "letters-assemble",
+   "at": "2026-11-25T07:57:02.656Z",
+   "seed": "73d6a10e"
+  },
+  {
+   "id": "liquid-type",
+   "at": "2026-11-25T07:57:02.717Z",
+   "seed": "833666cb"
+  }
+ ]
+}

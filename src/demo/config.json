@@ -1,0 +1,167 @@
+{
+  "name": "PermitTern",
+  "primary": "Book a demo",
+  "accent": "#a1ffcb",
+  "ink": "#232323",
+  "bg": "#ffffff",
+  "surface": "#f3f3f3",
+  "fontLink": "<link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400..700&family=JetBrains+Mono:wght@400..500&display=swap\" rel=\"stylesheet\">",
+  "fontDisplay": "\"Manrope\", system-ui, sans-serif",
+  "fontText": "\"Manrope\", system-ui, sans-serif",
+  "client": "Lekki Build Partners",
+  "note": "Fixed permit documents. Extractions here come from fixed data in your browser; no AI service is called.",
+  "tabs": {
+    "overview": "Renewals",
+    "records": "Permits",
+    "queue": "Records to review"
+  },
+  "overview": {
+    "title": "Permits across four sites",
+    "kpis": [
+      [
+        "Permits tracked",
+        "46"
+      ],
+      [
+        "Due in 60 days",
+        "5"
+      ],
+      [
+        "Missing documents",
+        "3"
+      ],
+      [
+        "Sites",
+        "4"
+      ]
+    ],
+    "chart": {
+      "title": "Renewals due per month",
+      "labels": [
+        "Dec",
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "values": [
+        2,
+        3,
+        1,
+        2,
+        3,
+        1
+      ],
+      "threshold": 2,
+      "thresholdLabel": "Busy month over 2",
+      "caption": "Months above the line need renewal packs started early."
+    }
+  },
+  "records": {
+    "title": "Permits",
+    "searchHint": "Site or permit",
+    "statusCol": 3,
+    "columns": [
+      "Site",
+      "Permit",
+      "Authority",
+      "Status",
+      "Conditions",
+      "Expires"
+    ],
+    "tones": {
+      "Due soon": "warn",
+      "Missing documents": "bad",
+      "Complete": "good"
+    },
+    "rows": [
+      [
+        "Ikoyi Tower",
+        "Road closure permit",
+        "LASTMA",
+        "Due soon",
+        "2",
+        "28 Dec"
+      ],
+      [
+        "Lekki Phase 1",
+        "Building approval",
+        "LASPPPA",
+        "Missing documents",
+        "14",
+        "14 Jan"
+      ],
+      [
+        "Ikoyi Tower",
+        "Environmental permit",
+        "LASEPA",
+        "Missing documents",
+        "11",
+        "2 Feb"
+      ],
+      [
+        "Lekki Phase 1",
+        "Hoarding permit",
+        "LASBCA",
+        "Complete",
+        "4",
+        "20 Mar"
+      ],
+      [
+        "Yaba Office",
+        "Fire safety certificate",
+        "Fire Service",
+        "Complete",
+        "6",
+        "9 Apr"
+      ],
+      [
+        "Apapa Warehouse",
+        "Operating licence",
+        "LASEPA",
+        "Complete",
+        "8",
+        "1 Dec 2027"
+      ],
+      [
+        "Apapa Warehouse",
+        "Discharge consent",
+        "LASEPA",
+        "Complete",
+        "5",
+        "30 May"
+      ]
+    ]
+  },
+  "queue": {
+    "title": "Permit records waiting for review",
+    "lead": "Each record quotes the permit page it came from. Nothing is final until your compliance lead approves it.",
+    "items": [
+      {
+        "id": "env",
+        "title": "Environmental permit, Ikoyi Tower",
+        "detail": "11 conditions, expires 2 Feb.",
+        "reason": "Requires a noise survey that is not on file."
+      },
+      {
+        "id": "bld",
+        "title": "Building approval, Lekki Phase 1",
+        "detail": "14 conditions, expires 14 Jan.",
+        "reason": "Structural report on file is over 12 months old."
+      },
+      {
+        "id": "road",
+        "title": "Road closure permit, Ikoyi Tower",
+        "detail": "2 conditions, expires 28 Dec.",
+        "reason": "Renewal needs a traffic plan and police letter."
+      },
+      {
+        "id": "lic",
+        "title": "Operating licence, Apapa Warehouse",
+        "detail": "Renewed version compared.",
+        "reason": "Working hours changed from 20:00 to 18:00."
+      }
+    ]
+  }
+}

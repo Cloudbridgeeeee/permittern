@@ -1,0 +1,11 @@
+{
+ "page": "dist/index.html",
+ "dir": "/home/user/permittern",
+ "kind": "software",
+ "start": "2026-11-25T07:57:02.533Z",
+ "by": "start.mjs",
+ "url": null,
+ "root": "dist",
+ "category": "permit document management for construction",
+ "primary": "Book a demo"
+}
